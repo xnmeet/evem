@@ -1,0 +1,374 @@
+{
+  "name": "@evem/cli",
+  "entries": [
+    {
+      "version": "0.1.3",
+      "tag": "@evem/cli@0.1.3",
+      "date": "Sat, 11 May 2024 06:43:17 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update dep"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.1.3-beta.1` to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.1.3-beta.1` to `0.1.3`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/event\" from `0.1.3-beta.1` to `0.1.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.2",
+      "tag": "@evem/cli@0.1.2",
+      "date": "Thu, 26 Oct 2023 06:04:49 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.1.2-beta.0` to `0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/event\" from `0.1.2-beta.0` to `0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.1.2-beta.0` to `0.1.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.1",
+      "tag": "@evem/cli@0.1.1",
+      "date": "Mon, 28 Aug 2023 08:27:39 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix missing versionContext cause target mode error in publish"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.1.0` to `0.1.1`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/event\" from `0.1.0` to `0.1.1`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.1.0` to `0.1.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@evem/cli@0.1.0",
+      "date": "Tue, 04 Jul 2023 05:22:03 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "support bump version wirh devDep change"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.1.0-beta.0` to `0.1.0`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/event\" from `0.1.0-beta.0` to `0.1.0`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.1.0-beta.0` to `0.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.16",
+      "tag": "@evem/cli@0.0.16",
+      "date": "Thu, 18 May 2023 04:04:29 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Change dependency version type"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.0.5-beta.0` to `0.0.5`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.14-beta.0` to `0.0.14`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.15",
+      "tag": "@evem/cli@0.0.15",
+      "date": "Wed, 10 May 2023 08:58:12 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "optimize log"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.12` to `0.0.13`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.14",
+      "tag": "@evem/cli@0.0.14",
+      "date": "Fri, 05 May 2023 13:17:04 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix typo"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.11` to `0.0.12`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.13",
+      "tag": "@evem/cli@0.0.13",
+      "date": "Fri, 05 May 2023 08:00:44 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "support reuse change description"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.11-beta.1` to `0.0.11`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.12",
+      "tag": "@evem/cli@0.0.12",
+      "date": "Sun, 23 Apr 2023 11:06:46 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.9` to `0.0.10`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.11",
+      "tag": "@evem/cli@0.0.11",
+      "date": "Wed, 19 Apr 2023 06:44:55 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix the repeated throwing results"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.8` to `0.0.9`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.10",
+      "tag": "@evem/cli@0.0.10",
+      "date": "Thu, 13 Apr 2023 07:56:07 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "The result throws logic is not affected by _listOnly"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.9",
+      "tag": "@evem/cli@0.0.9",
+      "date": "Mon, 10 Apr 2023 07:31:02 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Support independent"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.0.3` to `0.0.4`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.7` to `0.0.8`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.8",
+      "tag": "@evem/cli@0.0.8",
+      "date": "Thu, 06 Apr 2023 07:46:47 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix list env name error"
+          },
+          {
+            "comment": "Adjust the name of the environment variable"
+          },
+          {
+            "comment": "add export & support version callback"
+          },
+          {
+            "comment": "add silent to support no log"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/event\" from `0.0.0` to `0.0.1`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.0.2` to `0.0.3`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.6` to `0.0.7`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.7",
+      "tag": "@evem/cli@0.0.7",
+      "date": "Tue, 28 Mar 2023 12:04:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "support include option"
+          },
+          {
+            "comment": "support fixed option"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.5` to `0.0.6`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.6",
+      "tag": "@evem/cli@0.0.6",
+      "date": "Sat, 25 Mar 2023 11:02:31 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.4` to `0.0.5`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.5",
+      "tag": "@evem/cli@0.0.5",
+      "date": "Sat, 25 Mar 2023 08:19:02 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add --no-git-tag params"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.4",
+      "tag": "@evem/cli@0.0.4",
+      "date": "Sat, 25 Mar 2023 07:49:11 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "use desc replace title"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "support none type"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.0.1` to `0.0.2`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.3` to `0.0.4`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.3",
+      "tag": "@evem/cli@0.0.3",
+      "date": "Thu, 23 Mar 2023 08:50:44 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.2` to `0.0.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.2",
+      "tag": "@evem/cli@0.0.2",
+      "date": "Thu, 23 Mar 2023 06:56:14 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.1` to `0.0.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.0.1",
+      "tag": "@evem/cli@0.0.1",
+      "date": "Thu, 23 Mar 2023 05:38:43 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "add cli"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "release"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@evem/logger\" from `0.0.0` to `0.0.1`"
+          },
+          {
+            "comment": "Updating dependency \"@evem/core\" from `0.0.0` to `0.0.1`"
+          }
+        ]
+      }
+    }
+  ]
+}

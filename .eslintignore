@@ -1,0 +1,4 @@
+node_modules
+dist
+bin
+babel.config.js

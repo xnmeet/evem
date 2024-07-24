@@ -1,0 +1,21 @@
+{
+  "name": "@evem/event",
+  "version": "0.1.3",
+  "description": "Evem event helper",
+  "author": "starfishingxiao@gmail.com",
+  "main": "dist/evem-event.cjs.js",
+  "module": "dist/evem-event.esm.js",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

@@ -5,14 +5,14 @@ import {
   CommandLineStringListParameter
 } from '@rushstack/ts-command-line';
 
-import { error, success } from '@evem/logger';
+import { error, success } from 'evem-logger';
 import {
   ExitError,
   EvemConfiguration,
   publishRun,
   sortPackagesByDependencyOrder,
   VersionContext
-} from '@evem/core';
+} from 'evem-core';
 import { packagesAdapter } from '../../utils/packages-adapter';
 import { getAffectPackages } from '../../utils/packages-affect';
 

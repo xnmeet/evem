@@ -1,5 +1,5 @@
 import prompts from 'prompts';
-import { Config, EvemConfiguration, JsonFile } from '@evem/core';
+import { Config, EvemConfiguration, JsonFile } from 'evem-core';
 import { cancelFlow } from './command';
 
 async function askRushConfig(): Promise<string> {
@@ -38,7 +38,7 @@ async function askBaseBranch(): Promise<string> {
 }
 
 export async function initConfigAdapter(configuration: EvemConfiguration): Promise<Config> {
-  const coreJson = JsonFile.load(require.resolve('@evem/core/package.json'));
+  const coreJson = JsonFile.load(require.resolve('evem-core/package.json'));
   const basicConfig: Config = {
     $schema: `https://unpkg.byted-static.com/evem/core/${coreJson.version}/src/schemas/config.schema.json`,
     baseBranch: 'main',

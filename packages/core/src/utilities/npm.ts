@@ -1,4 +1,4 @@
-import { error, debug } from '@evem/logger';
+import { error, debug } from 'evem-logger';
 import pLimit from 'p-limit';
 import preferredPM from 'preferred-pm';
 import spawn from 'spawndamnit';

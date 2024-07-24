@@ -2,7 +2,7 @@ import { JsonFile, JsonSchema } from '@rushstack/node-core-library';
 import path from 'path';
 import chalk from 'chalk';
 import { findRootSync } from '@manypkg/find-root';
-import { debug } from '@evem/logger';
+import { debug } from 'evem-logger';
 
 import { Config, EvemConfiguration } from '../types';
 import configSchema from '../schemas/config.schema.json';

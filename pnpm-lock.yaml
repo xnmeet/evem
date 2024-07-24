@@ -68,21 +68,21 @@ importers:
 
   packages/cli:
     dependencies:
-      '@evem/core':
-        specifier: workspace:^
-        version: link:../core
-      '@evem/event':
-        specifier: workspace:^
-        version: link:../event
-      '@evem/logger':
-        specifier: workspace:^
-        version: link:../logger
       '@rushstack/ts-command-line':
         specifier: ^4.19.5
         version: 4.19.5(@types/node@18.19.33)
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
+      evem-core:
+        specifier: workspace:^
+        version: link:../core
+      evem-event:
+        specifier: workspace:^
+        version: link:../event
+      evem-logger:
+        specifier: workspace:^
+        version: link:../logger
       micromatch:
         specifier: ^4.0.5
         version: 4.0.5
@@ -99,9 +99,6 @@ importers:
 
   packages/core:
     dependencies:
-      '@evem/logger':
-        specifier: workspace:^
-        version: link:../logger
       '@manypkg/find-root':
         specifier: ^2.2.1
         version: 2.2.1
@@ -117,6 +114,9 @@ importers:
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
+      evem-logger:
+        specifier: workspace:^
+        version: link:../logger
       extendable-error:
         specifier: ^0.1.7
         version: 0.1.7
@@ -157,7 +157,7 @@ importers:
 
   packages/example:
     dependencies:
-      '@evem/cli':
+      evem:
         specifier: workspace:^
         version: link:../cli
 

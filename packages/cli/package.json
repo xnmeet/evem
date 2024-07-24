@@ -1,5 +1,5 @@
 {
-  "name": "@evem/cli",
+  "name": "evem",
   "version": "0.1.3",
   "description": "Evem cli",
   "bin": {
@@ -10,8 +10,8 @@
     "dist",
     "CHANGELOG.md"
   ],
-  "main": "dist/evem-cli.cjs.js",
-  "module": "dist/evem-cli.esm.js",
+  "main": "dist/evem.cjs.js",
+  "module": "dist/evem.esm.js",
   "author": "starfishingxiao",
   "license": "MIT",
   "preconstruct": {
@@ -20,9 +20,9 @@
     ]
   },
   "dependencies": {
-    "@evem/core": "workspace:^",
-    "@evem/event": "workspace:^",
-    "@evem/logger": "workspace:^",
+    "evem-core": "workspace:^",
+    "evem-event": "workspace:^",
+    "evem-logger": "workspace:^",
     "@rushstack/ts-command-line": "^4.19.5",
     "chalk": "^4.1.2",
     "micromatch": "^4.0.5",

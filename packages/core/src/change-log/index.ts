@@ -3,7 +3,7 @@
 import * as path from 'path';
 import { FileSystem, JsonFile, JsonSchema } from '@rushstack/node-core-library';
 import { Package } from '@manypkg/tools';
-import { debug } from '@evem/logger';
+import { debug } from 'evem-logger';
 
 import { ReleaseScheduler } from '../utilities';
 import {

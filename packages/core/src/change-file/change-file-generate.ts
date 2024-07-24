@@ -2,7 +2,7 @@
 
 import path from 'path';
 import { JsonFile } from '@rushstack/node-core-library';
-import { debug } from '@evem/logger';
+import { debug } from 'evem-logger';
 
 import { git } from '../utilities';
 import { IChangeFile, IChangeInfo } from '../types';

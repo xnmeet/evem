@@ -27,9 +27,9 @@
 ## 安装
 
 ```shell
-npx @evem/cli init
+npx evem init
 or
-npm install -g @evem/cli
+npm install -g evem
 ```
 
 ## 使用示例
@@ -61,7 +61,7 @@ evem change
 此外，如果您想为指定的包生成变更记录，无论它是否已实际更改，您可以使用`--to`参数，该参数与默认更改不同。默认更改是根据差异结果计算的差异。
 
 ```
-evem change --to @evem/logger
+evem change --to evem-logger
 ```
 
 更多命令参数
@@ -93,7 +93,7 @@ evem version
 当然你也可以为指定的包进行版本计算和变更日志的生成
 
 ```
-evem version --to @evem/logger
+evem version --to evem-logger
 ```
 
 如果你想发布预览版本，你只需要像下面这样做
@@ -138,7 +138,7 @@ evem publish
 同样，发布也支持发布指定包
 
 ```
-evem publish --to @evem/logger
+evem publish --to evem-logger
 ```
 
 您可以为发布的不同版本指定不同的标签，例如在发布`beta`版本时指定`beta`作为相应的标签。
@@ -178,7 +178,7 @@ Optional arguments:
 通常，我们的业务仓库包含许多项目包，完整构建需要太多时间。我们希望在发布期间只构建已更改和待发布的软件包，以提高效率。Evem提供了一个API，可以轻松帮助您实现这一目标。
 
 ```tsx
-import { Evem, EventCoreOn, type OnVersionPlanData } from '@evem/cli';
+import { Evem, EventCoreOn, type OnVersionPlanData } from 'evem';
 
 async function publishFlow() {
   const versionCli = new Evem();

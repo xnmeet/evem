@@ -1,5 +1,5 @@
 import prompts from 'prompts';
-import { IChangeFile } from '@evem/core';
+import { IChangeFile } from 'evem-core';
 import { cancelFlow } from '../../utils/command';
 
 export async function askSelectVersionAndDesc(packages: string[]): Promise<IChangeFile[]> {

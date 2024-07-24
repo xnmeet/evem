@@ -5,9 +5,9 @@ import {
   CommandLineStringParameter
 } from '@rushstack/ts-command-line';
 
-import { error, success, list } from '@evem/logger';
-import { ChangeManager, ExitError, EvemConfiguration, VersionContext } from '@evem/core';
-import { EventCoreEmit } from '@evem/event';
+import { error, success, list } from 'evem-logger';
+import { ChangeManager, ExitError, EvemConfiguration, VersionContext } from 'evem-core';
+import { EventCoreEmit } from 'evem-event';
 import { packagesAdapter } from '../../utils/packages-adapter';
 
 export class VersionAction extends CommandLineAction {

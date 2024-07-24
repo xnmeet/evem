@@ -1,7 +1,7 @@
 import { join } from 'path';
 import chalk from 'chalk';
 import { Package } from '@manypkg/get-packages';
-import { info, log, warn, dynamicLog } from '@evem/logger';
+import { info, log, warn, dynamicLog } from 'evem-logger';
 import lodash from 'lodash';
 import * as npmUtils from '../utilities/npm';
 import { AccessType } from '../types';

@@ -1,14 +1,14 @@
 {
-  "name": "@evem/example",
+  "name": "evem-example",
   "version": "0.0.0",
   "private": true,
   "description": "Evem example",
   "main": "dist/evem-example.cjs.js",
   "module": "dist/evem-example.esm.js",
-  "author": "starfishingxiao@gmail.com",
+  "author": "xxnmeet@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "@evem/cli": "workspace:^"
+    "evem": "workspace:^"
   },
   "files": [
     "dist",

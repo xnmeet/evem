@@ -1,6 +1,6 @@
 import { CommandLineAction, CommandLineFlagParameter } from '@rushstack/ts-command-line';
-import { error, success } from '@evem/logger';
-import { ExitError, EvemConfiguration, JsonFile } from '@evem/core';
+import { error, success } from 'evem-logger';
+import { ExitError, EvemConfiguration, JsonFile } from 'evem-core';
 import fs from 'fs';
 import { initConfigAdapter } from '../../utils/config-adpater';
 

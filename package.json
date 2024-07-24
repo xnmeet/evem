@@ -8,13 +8,14 @@
     "watch": "preconstruct watch",
     "postinstall": "preconstruct dev",
     "dev": "preconstruct dev",
+    "fix": "preconstruct fix",
     "evem": "packages/cli/bin.js",
     "eslint": "eslint ./packages --fix --cache",
     "publish:alpha": "bash ./publish-alpha.sh",
     "publish:beta": "bash ./publish-beta.sh",
     "publish:stable": "bash ./publish-stable.sh"
   },
-  "author": "starfishingxiao@gmail.com",
+  "author": "xxnmeet@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.5",

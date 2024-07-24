@@ -1,4 +1,4 @@
-import { Package, Packages, VersionContext, getDependentsGraph } from '@evem/core';
+import { Package, Packages, VersionContext, getDependentsGraph } from 'evem-core';
 
 export function getAffectPackages(
   packages: Packages,

@@ -1,7 +1,7 @@
 import semver from 'semver';
 import chalk from 'chalk';
 import { Packages, Package } from '@manypkg/get-packages';
-import { warn } from '@evem/logger';
+import { warn } from 'evem-logger';
 import { PackageJSON, DEPENDENCY_TYPES, VersionContext } from '../types';
 
 /**

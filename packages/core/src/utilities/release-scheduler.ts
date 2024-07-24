@@ -1,7 +1,7 @@
 import { Packages, Package } from '@manypkg/get-packages';
 import { JsonFile, JsonSchema } from '@rushstack/node-core-library';
 import semver, { ReleaseType } from 'semver';
-import { warn, debug } from '@evem/logger';
+import { warn, debug } from 'evem-logger';
 import lodash from 'lodash';
 import micromatch from 'micromatch';
 

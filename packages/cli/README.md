@@ -1,4 +1,4 @@
-# @evem/cli
+# evem
 
 This is evem's cli tool, which is used to track changes and release version.
 
@@ -30,9 +30,9 @@ For detailed help about a specific command, use: evem <command> -h
 ## install
 
 ```shell
-npx @evem/cli init
+npx evem init
 or
-npm install -g @evem/cli
+npm install -g evem
 ```
 
 
@@ -64,7 +64,7 @@ evem change
 In addition, If you want to generate a changelog for a specified package regardless of whether it has actually changed, you can use the `--to` parameter, which is different from the default change. The default change is the difference calculated based on the diff result.
 
 ```
-evem change --to @evem/logger
+evem change --to evem-logger
 ```
 
 More help
@@ -96,7 +96,7 @@ evem version
 Of course, you can also specify packages to generate change logs.
 
 ```
-evem version --to @evem/logger
+evem version --to evem-logger
 ```
 
 If you want to release the pre version, you just need to do this.
@@ -142,7 +142,7 @@ evem publish
 Similarly, publishing also supports the release of specified packages.
 
 ```
-evem publish --to @evem/logger
+evem publish --to evem-logger
 ```
 
 You can specify different tags for the versions you release, such as specifying `beta` as the corresponding tag when releasing a `beta` version.

@@ -4,8 +4,8 @@ import {
   CommandLineStringListParameter
 } from '@rushstack/ts-command-line';
 
-import { debug, error, success, warn } from '@evem/logger';
-import { git, EvemConfiguration, ChangeFileGenerate, ExitError, VersionContext } from '@evem/core';
+import { debug, error, success, warn } from 'evem-logger';
+import { git, EvemConfiguration, ChangeFileGenerate, ExitError, VersionContext } from 'evem-core';
 import chalk from 'chalk';
 import { packagesAdapter } from '../../utils/packages-adapter';
 import { askSelectVersionAndDesc } from './assistant';

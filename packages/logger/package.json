@@ -1,8 +1,8 @@
 {
-  "name": "@evem/logger",
+  "name": "evem-logger",
   "version": "0.1.3",
   "description": "Evem log helper",
-  "author": "starfishingxiao@gmail.com",
+  "author": "xxnmeet@gmail.com",
   "license": "ISC",
   "main": "dist/evem-logger.cjs.js",
   "module": "dist/evem-logger.esm.js",

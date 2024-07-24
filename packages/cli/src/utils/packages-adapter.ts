@@ -1,4 +1,4 @@
-import { Packages, JsonFile, PackageJSON, VersionContext } from '@evem/core';
+import { Packages, JsonFile, PackageJSON, VersionContext } from 'evem-core';
 import micromatch from 'micromatch';
 import path from 'path';
 

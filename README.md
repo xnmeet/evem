@@ -2,7 +2,12 @@
 
 <div align="center"><img src="https://p3-infra.elabpic.com/tos-cn-i-ax5x5hote5/1cb02dc31f834262a19ba426ba04d4c7~tplv-ax5x5hote5-image.image" alt="Logo" height="200"></div>
 
-[![maintained](https://img.shields.io/badge/maintained-pnpm-orange)](https://pnpm.io/)
+<p align="center">
+  <a href="https://npmjs.com/package/evem"><img src="https://img.shields.io/npm/v/evem.svg" alt="npm package"></a>
+  <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/evem.svg" alt="node compatibility"></a>
+   <a href="https://pnpm.io/"><img src="https://img.shields.io/badge/maintained-pnpm-orange" alt="node compatibility"></a>
+</p>
+<br/>
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -27,9 +32,9 @@ Evem is designed with a simple and easy-to-manage concept. A lot of excellent pr
 ## Install
 
 ```shell
-npx @evem/cli init
+npx evem init
 or
-npm install -g @evem/cli
+npm install -g evem
 ```
 
 ## Example
@@ -61,7 +66,7 @@ evem change
 In addition, If you want to generate a changelog for a specified package regardless of whether it has actually changed, you can use the `--to` parameter, which is different from the default change. The default change is the difference calculated based on the diff result.
 
 ```
-evem change --to @evem/logger
+evem change --to evem-logger
 ```
 
 More help
@@ -93,7 +98,7 @@ evem version
 Of course, you can also specify packages to generate change logs.
 
 ```
-evem version --to @evem/logger
+evem version --to evem-logger
 ```
 
 If you want to release the pre version, you just need to do this.
@@ -139,7 +144,7 @@ evem publish
 Similarly, publishing also supports the release of specified packages.
 
 ```
-evem publish --to @evem/logger
+evem publish --to evem-logger
 ```
 
 You can specify different tags for the versions you release, such as specifying `beta` as the corresponding tag when releasing a `beta` version.
@@ -179,7 +184,7 @@ If your repository is a relatively clean tool library, you can perform full buil
 Usually, our business warehouse contains many project packages, and full builds take too much time. We hope to build only the changed and to-be-released packages during publishing to improve efficiency. Evem provides an API that can easily help you achieve this.
 
 ```tsx
-import { Evem, EventCoreOn, type OnVersionPlanData } from '@evem/cli';
+import { Evem, EventCoreOn, type OnVersionPlanData } from 'evem';
 
 async function publishFlow() {
   const versionCli = new Evem();

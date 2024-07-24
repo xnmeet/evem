@@ -1,6 +1,6 @@
 import { spawnSync } from 'child_process';
 import type child_process from 'child_process';
-import { debug } from '@evem/logger';
+import { debug } from 'evem-logger';
 
 export function processResult(result: child_process.SpawnSyncReturns<Buffer>): void {
   if (result.error) {

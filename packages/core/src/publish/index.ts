@@ -1,5 +1,5 @@
 import { PublishedResult, publishPackages, publishPackagesSync } from './publish-packages';
-import { error, log, success, warn } from '@evem/logger';
+import { error, log, success, warn } from 'evem-logger';
 import { Package } from '@manypkg/get-packages';
 import { AccessType, Config } from '../types';
 import { ExitError, git } from '../utilities';

@@ -3,6 +3,6 @@
   "baseBranch": "main",
   "access": "public",
   "publishSync": true,
-  "fixed": [["@evem/*"]],
+  "fixed": [["evem-*"]],
   "include": ["!packages/example"]
 }

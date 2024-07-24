@@ -1,4 +1,4 @@
-import { Evem, EventCoreOn, OnVersionPlanData } from '@evem/cli';
+import { Evem, EventCoreOn, OnVersionPlanData } from 'evem';
 
 async function main() {
   const evemCli = new Evem();

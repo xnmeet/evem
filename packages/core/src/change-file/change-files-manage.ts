@@ -1,7 +1,7 @@
 // Reused the implementation of node-core-library.
 
 import { JsonFile, FileSystem } from '@rushstack/node-core-library';
-import { debug } from '@evem/logger';
+import { debug } from 'evem-logger';
 import glob from 'glob';
 
 import { IChangelog, IChangeInfo } from '../types';

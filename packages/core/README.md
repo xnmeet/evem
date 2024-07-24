@@ -1,4 +1,4 @@
-# @evem/core
+# evem-core
 
 Here is the ability of all the cores used by evem.
 

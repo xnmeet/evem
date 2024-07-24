@@ -1,8 +1,8 @@
 import { CommandLineFlagParameter, CommandLineParser } from '@rushstack/ts-command-line';
 import path from 'path';
 import chalk from 'chalk';
-import { error, info } from '@evem/logger';
-import { getProjectConfiguration, EvemConfiguration, ExitError, loadConfig } from '@evem/core';
+import { error, info } from 'evem-logger';
+import { getProjectConfiguration, EvemConfiguration, ExitError, loadConfig } from 'evem-core';
 import { ChangeAction, VersionAction, PublishAction, InitAction } from './commands';
 import { resetEnv } from './utils/env';
 
@@ -60,5 +60,5 @@ export class Evem extends CommandLineParser {
   }
 }
 
-export { EventCoreOn, EventType } from '@evem/event';
-export { ReleasePlan as OnVersionPlanData } from '@evem/core';
+export { EventCoreOn, EventType } from 'evem-event';
+export { ReleasePlan as OnVersionPlanData } from 'evem-core';

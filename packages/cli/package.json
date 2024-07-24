@@ -12,7 +12,16 @@
   ],
   "main": "dist/evem.cjs.js",
   "module": "dist/evem.esm.js",
-  "author": "starfishingxiao",
+  "author": "xxnmeet@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/cli"
+  },
+  "keywords": [
+    "evem"
+  ],
+  "sideEffects": false,
   "license": "MIT",
   "preconstruct": {
     "entrypoints": [

@@ -15,6 +15,9 @@
     "publish:beta": "bash ./publish-beta.sh",
     "publish:stable": "bash ./publish-stable.sh"
   },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
   "author": "xxnmeet@gmail.com",
   "license": "ISC",
   "devDependencies": {

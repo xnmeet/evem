@@ -5,7 +5,17 @@
   "main": "dist/evem-core.cjs.js",
   "module": "dist/evem-core.esm.js",
   "author": "xxnmeet@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "evem",
+    "evem-core"
+  ],
+  "sideEffects": false,
   "files": [
     "dist",
     "CHANGELOG.md",

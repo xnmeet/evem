@@ -3,7 +3,17 @@
   "version": "0.1.3",
   "description": "Evem log helper",
   "author": "xxnmeet@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/logger"
+  },
+  "keywords": [
+    "evem",
+    "evem-logger"
+  ],
+  "sideEffects": false,
   "main": "dist/evem-logger.cjs.js",
   "module": "dist/evem-logger.esm.js",
   "dependencies": {

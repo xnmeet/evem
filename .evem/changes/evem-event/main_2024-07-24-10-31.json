@@ -1,0 +1,10 @@
+{
+  "packageName": "evem-event",
+  "changes": [
+    {
+      "packageName": "evem-event",
+      "comment": "update meta",
+      "type": "patch"
+    }
+  ]
+}

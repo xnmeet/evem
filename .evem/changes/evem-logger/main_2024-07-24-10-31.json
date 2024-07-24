@@ -1,0 +1,10 @@
+{
+  "packageName": "evem-logger",
+  "changes": [
+    {
+      "packageName": "evem-logger",
+      "comment": "update meta",
+      "type": "patch"
+    }
+  ]
+}

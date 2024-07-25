@@ -2,6 +2,24 @@
   "name": "evem",
   "entries": [
     {
+      "version": "0.1.5",
+      "tag": "evem@0.1.5",
+      "date": "Thu, 25 Jul 2024 03:05:36 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"evem-core\" from `0.1.4` to `0.1.5`"
+          },
+          {
+            "comment": "Updating dependency \"evem-event\" from `0.1.4` to `0.1.5`"
+          },
+          {
+            "comment": "Updating dependency \"evem-logger\" from `0.1.4` to `0.1.5`"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.4",
       "tag": "evem@0.1.4",
       "date": "Wed, 24 Jul 2024 10:36:10 GMT",

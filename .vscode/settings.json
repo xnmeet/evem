@@ -1,0 +1,44 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.nyc_output": true,
+    "**/pnpm-lock.yaml": true,
+    "**/CHANGELOG.json": true,
+    "**/CHANGELOG.md": true
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/dist": true,
+    "**/node_modules": false
+  },
+  "eslint.nodePath": "./node_modules/eslint",
+  "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.trimTrailingWhitespace": true,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+}

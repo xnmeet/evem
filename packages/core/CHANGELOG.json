@@ -1,0 +1,17 @@
+{
+  "name": "evem-core",
+  "entries": [
+    {
+      "version": "0.1.4",
+      "tag": "evem-core@0.1.4",
+      "date": "Wed, 24 Jul 2024 10:36:10 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"evem-logger\" from `0.1.4-beta.0` to `0.1.4`"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "evem-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Evem example",
+  "main": "dist/evem-example.cjs.js",
+  "module": "dist/evem-example.esm.js",
+  "author": "xxnmeet@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "evem": "workspace:^"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "evem",
+  "version": "0.0.0",
+  "description": "Make the version release more efficient",
+  "main": "index.js",
+  "scripts": {
+    "build": "preconstruct build",
+    "watch": "preconstruct watch",
+    "postinstall": "preconstruct dev",
+    "dev": "preconstruct dev",
+    "fix": "preconstruct fix",
+    "evem": "packages/cli/bin.js",
+    "eslint": "eslint ./packages --fix --cache",
+    "publish:alpha": "bash ./publish-alpha.sh",
+    "publish:beta": "bash ./publish-beta.sh",
+    "publish:stable": "bash ./publish-stable.sh"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "author": "xxnmeet@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@preconstruct/cli": "^2.8.4",
+    "@types/node": "^18.19.33",
+    "@types/semver": "^7.5.8",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "esbuild": "^0.17.19",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

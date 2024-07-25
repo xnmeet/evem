@@ -1,0 +1,47 @@
+{
+  "name": "evem",
+  "version": "0.1.4",
+  "description": "Evem cli",
+  "bin": {
+    "evem": "bin.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "main": "dist/evem.cjs.js",
+  "module": "dist/evem.esm.js",
+  "author": "xxnmeet@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/cli"
+  },
+  "keywords": [
+    "evem"
+  ],
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  },
+  "dependencies": {
+    "evem-core": "workspace:^",
+    "evem-event": "workspace:^",
+    "evem-logger": "workspace:^",
+    "@rushstack/ts-command-line": "^4.19.5",
+    "chalk": "^4.1.2",
+    "micromatch": "^4.0.5",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/micromatch": "^4.0.7",
+    "@types/prompts": "^2.4.9"
+  }
+}

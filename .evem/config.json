@@ -1,0 +1,8 @@
+{
+  "$schema": "../packages/core/src/schemas/config.schema.json",
+  "baseBranch": "main",
+  "access": "public",
+  "publishSync": true,
+  "fixed": [["evem-*"]],
+  "include": ["!packages/example"]
+}

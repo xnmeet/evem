@@ -1,0 +1,31 @@
+{
+  "name": "evem-event",
+  "version": "0.1.4",
+  "description": "Evem event helper",
+  "author": "xxnmeet@gmail.com",
+  "main": "dist/evem-event.cjs.js",
+  "module": "dist/evem-event.esm.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/event"
+  },
+  "keywords": [
+    "evem",
+    "evem-event"
+  ],
+  "sideEffects": false,
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

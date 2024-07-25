@@ -1,0 +1,31 @@
+{
+  "name": "evem-logger",
+  "version": "0.1.4",
+  "description": "Evem log helper",
+  "author": "xxnmeet@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnmeet/evem.git",
+    "directory": "packages/logger"
+  },
+  "keywords": [
+    "evem",
+    "evem-logger"
+  ],
+  "sideEffects": false,
+  "main": "dist/evem-logger.cjs.js",
+  "module": "dist/evem-logger.esm.js",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts"
+    ]
+  }
+}

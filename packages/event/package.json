@@ -1,6 +1,6 @@
 {
   "name": "evem-event",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Evem event helper",
   "author": "xxnmeet@gmail.com",
   "main": "dist/evem-event.cjs.js",

@@ -1,6 +1,6 @@
 {
   "name": "evem-core",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Evem core used by cli",
   "main": "dist/evem-core.cjs.js",
   "module": "dist/evem-core.esm.js",

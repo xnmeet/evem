@@ -213,6 +213,9 @@ publishFlow();
 
 Evem can be used directly in the ts/js file to complete any commands required for publishing. The parameters are consistent with the terminal.
 
+## Recent activity
+![Alt](https://repobeats.axiom.co/api/embed/0308837b93e7a7dc6731ff701305a6b61dbdca47.svg "Repobeats analytics image")
+
 ## License
 
 Evem reused some excellent implementations of [changsets](https://github.com/changesets/changesets) and [@rushstack/node-core-library](https://github.com/microsoft/rushstack) in the release, these two libraries are also based on the MIT protocol.

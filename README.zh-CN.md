@@ -210,6 +210,8 @@ publishFlow();
 ```
 
 Evem 可以直接在 `ts/js`文件中使用，以完成发布所需的任何命令。参数与终端一致。
+## 最近活动
+![Alt](https://repobeats.axiom.co/api/embed/0308837b93e7a7dc6731ff701305a6b61dbdca47.svg "Repobeats analytics image")
 
 ## License
 
